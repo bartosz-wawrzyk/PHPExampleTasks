@@ -3,6 +3,7 @@
 These are 4 php tasks
 
 Task 1
+
 As part of data processing, the implementation of the "make" method of the Pipeline class should be completed.
 The "make" method should take a variable number of functions and return a new function that takes a
 one parameter $arg.
@@ -15,6 +16,7 @@ function($var) { return $var / 2; }), and then calling the returned function wit
 should return 5.
 
 Task 2
+
 The user interface contains two types of input controls: TextInput, which
 accepts all text, and NumericInput, which accepts only numbers.
 Implement the TextInput class, which includes:
@@ -24,6 +26,7 @@ Implement the NumericInput class, which: Inherits from TextInput. Redefines the 
 so that any non-numeric text is ignored.
 
 Task 3
+
 The RankTable class keeps track of each player's score in the league. After each game, the player records his score using the
 RecordResult() function.
 A player's ranking in the league is calculated according to the following logic:
@@ -43,6 +46,7 @@ Monika is in front of Maks in the list of players, he is ranked first. Therefore
 the above code should return "Monika".
 
 Task 4
+
 One type of dictionary, the thesaurus, contains words and their synonyms. Below is an example of
 of a data structure that defines a thesaurus:
 array("market" => array("trade"), "small" => array("little", "compact"))
